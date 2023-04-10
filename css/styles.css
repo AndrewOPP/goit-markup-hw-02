@@ -36,8 +36,8 @@ body {
   color: #2e2f42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-family: "Raleway";
   font-style: normal;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Navigation */
@@ -55,7 +55,11 @@ body {
 }
 
 /* Additional information */
-.address-info-mail {
+.adress-info {
+  font-style: normal;
+}
+
+.address-information {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -65,22 +69,8 @@ body {
   font-weight: 400;
 }
 
-.address-info-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-}
-
-.address-info-mail:hover,
-.address-info-mail:focus {
-  color: #404bbf;
-}
-.address-info-tel:hover,
-.address-info-tel:focus {
+.address-information:hover,
+.address-information:focus {
   color: #404bbf;
 }
 
