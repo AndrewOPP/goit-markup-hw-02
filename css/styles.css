@@ -26,6 +26,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   font-weight: 800;
+  font-family: "Raleway", sans-serif;
 }
 
 /* studio-logo */
@@ -36,7 +37,6 @@ body {
   color: #2e2f42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-style: normal;
   font-family: "Raleway", sans-serif;
 }
 
